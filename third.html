@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        header{
+            height: 200px;
+            background-color: rgb(112, 142, 168);
+        }
+        .title{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 80px;
+            font-size: 80px;
+            margin-bottom: 20px;
+            font-weight:200;
+            float: left;
+            
+        }
+        .line{
+            clear: both;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            top:-50px
+        }
+        .line li{
+            padding: 10px;
+            list-style: none;
+            display: inline;
+        }
+        .nav{
+            clear: both;
+            background-color: black;
+            height: 70px;
+            margin-left:50px;
+            margin-right:50px;
+            
+        }
+        .nav-text1{
+            color: white;
+            display: block;
+            padding-top: 23px;
+            padding-left: 50px;
+            float: left;
+        }
+        .aside{
+            display: inline;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 200px;
+            margin-left: 50px;
+            margin-top: 30px;
+            height: 1000px;
+            padding:20px;
+            float:left;
+        }
+        .aside ul{
+            padding-left: 0px;
+            margin-top:-20px;
+        }
+        .aside ul li{
+            margin:20px 0px 0px 0px;
+            height: 40px;
+            border-radius: 10px;
+            color: black;
+            list-style: none;
+            background-color: rgb(226, 226, 226);
+        }
+        .aside ul li:hover{
+            background-color: lightgrey;
+        }
+        .aside a{
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            text-decoration-line: none;
+
+        }
+        .aside a div{
+            padding-top: 10px;
+        }
+        
+        .button1{
+            color: white;
+            float: right;
+            padding-right: 40px;
+            
+        }
+        .button1 button{
+            width: 90px;
+            height: 70px;
+            border: 0;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+
+        }
+        .button1 button:hover{
+            background-color: red;
+        }
+        .text{
+            display: inline;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 785px;
+            margin-left: 30px;
+            margin-top: 30px;
+            height: 1000px;
+            padding:20px;
+            float:left;
+            
+        }
+        .text p{
+            margin-top: 0px;
+        }
+        .text h1{
+            text-align: center;
+            font-size: 32px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .pic{
+            display: inline;
+        }
+        .f14table {
+            border-collapse: collapse;
+        }
+        .f14table th{
+            border: 1px solid black;
+            background-color: bisque;
+        }
+        .f14table td{
+            border: 1px solid black;
+        }
+        .f14table tr{
+            text-align: center;
+        }
+        .footer{
+            clear: both;
+            
+            height: 30px;
+            margin-left:50px;
+            margin-right:50px;
+            
+        }
+    </style>
+       
+</head>
+<body>
+    <div style="width: 1200px; margin: auto;">
+        <header>
+            <h1 class="title">AIRCRAFT<br>WIKI</h1>
+            <ul class="line">
+                <li>ARMY AIRFORCES</li>
+                <li>|</li>
+                <li>NAVY AIRFORCES</li>
+                <li>|</li>
+                <li>SPACE FORCES</li>
+            </ul>
+        </header>
+        <nav class="nav">
+            <div class="nav-text1">BEST AIRPLANE WIKI</div>
+            <div class="button1">
+                <button onclick="location.href='index.html'">
+                    HOME
+                </button>
+                <button>
+                    ABOUT
+                </button>
+                <button>
+                    SERVICES
+                </button>
+                <button  onclick="alert('010-7142-2493 으로 연락')">
+                    CONTACT
+                </button>
+            </div>
+            
+        </nav>
+        <aside class="aside">
+            
+            <ul>
+                <li><a href="index.html"><div>F-4</div></a></li>
+                <li><a href="second.html"><div>F-5</div></a></li>
+                <li><a href="third.html"><div>F-14</div></a></li>
+                <li><a href="fourth.html"><div>F-104</div></a></li>
+                <li><a href="fifth.html"><div>A-4</div></a></li>
+            </ul>
+        </aside>
+        <section >
+            <div class="text">
+            <h1>F-14</h1>
+             <p>
+                그루먼 F-14 톰캣(영어: Grumman F-14 Tomcat)은 미국 해군의 초음속, 쌍발엔진, 가변익, 2인승 전투기이다.
+             </p>
+            <img class="pic" style="width: 300px; margin-right: 15px; margin-top: 15px; float:left" src="imgs/F-14-1.jpg">
+            <p>
+                톰캣의 주요 임무는 제공권 장악, 함대 대공 방어, 지상 목표물에 대한 정밀 폭격이다. 다양한 속도와 고도에서 최적의 기체 성능과 양력, 항력을 조절하기 위해 채용한 것이다. 
+            </p>
+            <p>
+                저고도에서 전투를 벌일 때는 날개를 펼쳐서 양력을 최대한 확보하여 기동력을 유지할 수 있고 고고도 급가속으로 기동할 때는 날개를 접고 삼각익으로 변신해서 AN/AWG9 레이다로 24개의 적기를 추적, 그중에서 6기를 골라 피닉스 장거리 공대공 미사일을 동시에 발사한다. 때문에 함대 장거리 방공으로서 저고도, 중고도, 고고도에 이르는 모든 다양한 적, 즉 항공기 뿐 아니라 각종 대함 미사일까지 대적할 수 있었다. 
+            </p>
+            <p>
+                1950년대말이 되자 미국 해군은 소련의 제트 폭격기나 잠수함에서 발사되는 장거리 대함 미사일에 대항하기 위해 항공모함 전투 전대를 지켜줄 내구성을 갖춘 장거리 요격기가 절실히 필요했다. 미 해군은 적 폭격기나 미사일을 요격하기 위해 강력한 성능의 레이다와 F-4 팬텀II보다 긴 미사일 사거리를 가진 함대 공중 방어 전투기를 개발하게 되었다.
+            </p>
+            <img class="pic" style="width: 300px; margin-right: 15px; margin-top: 15px; margin-left: 30px; float:right " src="imgs/F-14-2.jpg">
+            <h3>미 해군 소속 운용편대</h3>
+            <table class = "f14table">
+               <th>부대 번호</th>
+               <th>별칭</th>
+               <th>비고</th>
+               <tr>
+                    <td>VF-1</td>
+                    <td>울프팩</td>
+                    <td>1993년 9월 30일 해산</td>
+                </tr>
+                <tr>
+                    <td>VF-2</td>
+                    <td>바운티 헌터스</td>
+                    <td>2003년 7월 1일 자로 F/A-18E로 기종 전환 후 VFA-2로 개편</td>
+                </tr>
+                <tr>
+                    <td>VF-11</td>
+                    <td>레드 리퍼스</td>
+                    <td>2005년 5월에 F/A-18F로 기종 전환 후 VFA-11로 개편</td>
+                </tr>
+                <tr>
+                    <td>VF-14</td>
+                    <td>탑해터스</td>
+                    <td>2001년 12월 1일 자로 F/A-18E로 기종 전환 후 VFA-14로 개편</td>
+                </tr>
+                <tr>
+                    <td>VF-21</td>
+                    <td>프리랜서</td>
+                    <td>1996년 8월 20일 해산</td>
+                </tr>
+                <tr>
+                    <td>VF-24</td>
+                    <td>파이팅 레니게이드</td>
+                    <td>1996년 8월 20일 해산</td>
+                </tr>
+                <tr>
+                    <td>VF-31</td>
+                    <td>톰캐터</td>
+                    <td>현역 편대, 2006년 9월에 F/A-18E로 기종 전환 후 VFA-31로 개편 예정</td>
+                </tr>
+                <tr>
+                    <td>VF-32</td>
+                    <td>소드맨</td>
+                    <td>2005년 10월 1일 F/A-18F로 기종 전환 후 VFA-32로 개편</td>
+                </tr>
+                
+            </table>
+            </div>
+            <footer class="footer">
+
+            </footer>
+           
+            
+            
+        </section>
+        
+    </div>
+</body>
+</html>

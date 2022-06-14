@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        header{
+            height: 200px;
+            background-color: rgb(112, 142, 168);
+        }
+        .title{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 80px;
+            font-size: 80px;
+            margin-bottom: 20px;
+            font-weight:200;
+            float: left;
+            
+        }
+        .line{
+            clear: both;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            top:-50px
+        }
+        .line li{
+            padding: 10px;
+            list-style: none;
+            display: inline;
+        }
+        .nav{
+            clear: both;
+            background-color: black;
+            height: 70px;
+            margin-left:50px;
+            margin-right:50px;
+            
+        }
+        .nav-text1{
+            color: white;
+            display: block;
+            padding-top: 23px;
+            padding-left: 50px;
+            float: left;
+        }
+        .aside{
+            display: inline;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 200px;
+            margin-left: 50px;
+            margin-top: 30px;
+            height: 1000px;
+            padding:20px;
+            float:left;
+        }
+        .aside ul{
+            padding-left: 0px;
+            margin-top:-20px;
+        }
+        .aside ul li{
+            margin:20px 0px 0px 0px;
+            height: 40px;
+            border-radius: 10px;
+            color: black;
+            list-style: none;
+            background-color: rgb(226, 226, 226);
+        }
+        .aside ul li:hover{
+            background-color: lightgrey;
+        }
+        .aside a{
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            text-decoration-line: none;
+
+        }
+        .aside a div{
+            padding-top: 10px;
+        }
+        
+        .button1{
+            color: white;
+            float: right;
+            padding-right: 40px;
+            
+        }
+        .button1 button{
+            width: 90px;
+            height: 70px;
+            border: 0;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+
+        }
+        .button1 button:hover{
+            background-color: red;
+        }
+        .text{
+            display: inline;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 785px;
+            margin-left: 30px;
+            margin-top: 30px;
+            height: 1000px;
+            padding:20px;
+            float:left;
+            margin-bottom: 30px;
+        }
+        .text p{
+            margin-top: 0px;
+        }
+        .text h1{
+            text-align: center;
+            font-size: 32px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .pic{
+            display: inline;
+        }
+        .footer{
+            clear: both;
+            
+            height: 30px;
+            margin-left:50px;
+            margin-right:50px;
+            
+        }
+    </style>
+       
+</head>
+<body>
+    <div style="width: 1200px; margin: auto;">
+        <header>
+            <h1 class="title">AIRCRAFT<br>WIKI</h1>
+            <ul class="line">
+                <li>ARMY AIRFORCES</li>
+                <li>|</li>
+                <li>NAVY AIRFORCES</li>
+                <li>|</li>
+                <li>SPACE FORCES</li>
+            </ul>
+        </header>
+        <nav class="nav">
+            <div class="nav-text1">BEST AIRPLANE WIKI</div>
+            <div class="button1">
+                <button onclick="location.href='index.html'">
+                    HOME
+                </button>
+                <button>
+                    ABOUT
+                </button>
+                <button>
+                    SERVICES
+                </button>
+                <button onclick="alert('010-7142-2493 으로 연락')">
+                    CONTACT
+                </button>
+            </div>
+            
+        </nav>
+        <aside class="aside">
+            
+            <ul>
+                <li><a href="index.html"><div>F-4</div></a></li>
+                <li><a href="second.html"><div>F-5</div></a></li>
+                <li><a href="third.html"><div>F-14</div></a></li>
+                <li><a href="fourth.html"><div>F-104</div></a></li>
+                <li><a href="fifth.html"><div>A-4</div></a></li>
+            </ul>
+        </aside>
+        <section >
+            <div class="text">
+            <h1>F-5</h1>
+            <p>
+                노스롭 F-5 (Northrop F-5)는 미국의 노스롭 사가 1962년부터 설계하고 생산한 전투기이다.
+            </p>
+             <p>
+                원래 노스롭에 의해 N-156이란 이름으로 저가의 유지비용이 드는 전투기라는 개념으로 설계되었다. 그 당시에는 그러한 비행기의 시장은 거의 없었기 때문에 노스롭은 저가 항공기 시장을 노렸다
+             </p>
+             <img class="pic" style="width: 300px; margin-right: 15px; margin-top: 15px; float:left" src="imgs/F-5-1.jpg">
+             </p>
+             <P>
+                미 육군은 지상 지원용으로 관심을 표시했다. 그러나 고정익 항공기의 운용은 미 공군의 책임하에 있었고, 공군은 N-156의 운용도 거부했고, 육군의 운용도 허락하지 않았다. 그러나 미국 정부 입장에서 싼 가격의 초음속 전투기는 영국이나 일본과 같은 1등급 우방국이 아닌 2,3 등급 우방국에 계속 증가하는 미그 전투기들의 위협에 대처하기 위해 필요했고, F-5는 그런 요구에 적합한 전투기였다.
+             </P>
+             <p>
+                최초의 F-5A는 베트남 전쟁에 투입되었다. 그러나 미 공군이 채택 전 실험용으로 투입된 것이 아니라 우방국들에게 보여주기 위한 목적이었다.
+             </p>
+             <p>
+                F-5E는 공식적인 별명으로 타이거 II라고 불린다. 이것은 종종 오해를 일으키는데 타이거는 F-5 기종이 아니라, 사실은 F-11 타이거이다. 해리어를 승계한 해리어II 만이 자기이름을 계승한 유일한 비행기이다.
+             </p>
+            <p>
+                노스롭은 792대의 F-5E와 140대의 F-5F, 12대의 RF-5E를 생산했으나, 더 많은 수량과 다양한 버전이 해외에서 면허 생산되었다.
+            </p>
+            <p>
+                비록 미국은 F-5를 영공방위임무(frontline role)에 사용하지는 않았지만, 그것은 Mig-21과 성능이 유사하다는 이유로 가상적기로 채택되었다. 훈련용 버전은 T-38 탤론이며, 조종사에게 처음으로 초음속 비행을 가르치기 위해 미 공군에 의해 채택되었다.
+            </p>
+            <p>
+                노스롭은 원래 F-5G로 명명된, F-5E의 향상버전을 F-16의 수출 경쟁품으로서 개발 하려고 했다. F-5G는 나중에 F-20 타이거샤크로 재명명 되었다.
+            </p>
+            <p>
+                F/A-18 호넷은 YF-17 코브라에서 파생된 것인데, 이것은 F-5 타이거 II의 일부에 기반한 것이다.
+            </p>
+        </section>
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+</html>
